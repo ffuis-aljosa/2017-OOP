@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1508841857 source:c:\users\korisnik\documents\oop\email\main.cpp
-	<iostream>
-	"email_c.h"
-
-1508841870 c:\users\korisnik\documents\oop\email\email_c.h
-	<stdlib.h>
-	<regex>
-
