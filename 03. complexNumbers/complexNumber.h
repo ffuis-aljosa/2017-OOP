@@ -14,22 +14,16 @@ private:
 
 public:
     ComplexNumber()
-    {
-        re = 0;
-        im = 0;
-    }
+    : re(0), im(0)
+    {}
 
     ComplexNumber(double real)
-    {
-        re = real;
-        im = 0;
-    }
+    : re(real), im(0)
+    {}
 
     ComplexNumber(double real, double imaginary)
-    {
-        re = real;
-        im = imaginary;
-    }
+    : re(real), im(imaginary)
+    {}
 
     double getReal() { return re; }
     double getImaginary() { return im; }
