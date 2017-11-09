@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1509622780 source:c:\users\korisnik\documents\oop\03. complexnumbers\main.cpp
+1510217004 source:c:\users\korisnik\documents\oop\03. complexnumbers\main.cpp
 	<iostream>
 	"complexNumber.h"
 
-1509622780 c:\users\korisnik\documents\oop\03. complexnumbers\complexnumber.h
+1510217181 c:\users\korisnik\documents\oop\03. complexnumbers\complexnumber.h
+	<cmath>
 

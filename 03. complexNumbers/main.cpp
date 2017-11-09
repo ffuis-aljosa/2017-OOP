@@ -2,6 +2,8 @@
 
 #include "complexNumber.h"
 
+#include <stdexcept>
+
 using namespace std;
 
 // polymorfism
@@ -53,7 +55,20 @@ int main()
     print(z / a);
 
     ComplexNumber b;
-    print(z / b);
+
+    try
+    {
+        print(a + z * (z / b) - a - a);
+    }
+    catch(runtime_error error)
+    {
+        cout << "Desila se neka greska pri racunanju! " << error.what() << endl;
+    }
+
+    cout << (z == a) << endl;
+    cout << (z != z) << endl;
+    cout << (z != a) << endl;
+    cout << z.modulus() << endl;
 
     return 0;
 }

@@ -1,6 +1,11 @@
 #ifndef COMPLEXNUMBER_H_INCLUDED
 #define COMPLEXNUMBER_H_INCLUDED
 
+#include <cmath>
+#include <stdexcept>
+
+using namespace std;
+
 class ComplexNumber
 {
 private:
@@ -72,6 +77,9 @@ public:
 
     ComplexNumber divide(ComplexNumber value)
     {
+        if (value.re == 0 && value.im == 0)
+            throw runtime_error("Nije dozvoljeno dijeljenje s nulom!");
+
         double denominator = value.re * value.re + value.im * value.im;
         double real = (re * value.re + im * value.im) / denominator;
         double imaginary = (im * value.re - re * value.im) / denominator;
@@ -82,6 +90,21 @@ public:
     ComplexNumber operator /(ComplexNumber value)
     {
         return divide(value);
+    }
+
+    bool operator ==(ComplexNumber value)
+    {
+        return re == value.re && im == value.im;
+    }
+
+    bool operator !=(ComplexNumber value)
+    {
+        return re != value.re || im != value.im;
+    }
+
+    double modulus()
+    {
+        return sqrt(re * re + im * im);
     }
 };
 
