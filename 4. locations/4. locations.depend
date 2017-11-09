@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1510222219 source:c:\users\korisnik\documents\oop\4. locations\main.cpp
+	<iostream>
+	<stdexcept>
+	"location.h"
+
+1510222219 c:\users\korisnik\documents\oop\4. locations\location.h
+	<stdexcept>
+	<cmath>
+
