@@ -8,3 +8,16 @@
 	<stdexcept>
 	<cmath>
 
+1510223026 source:c:\users\korisnik\documents\oop\04. locations\main.cpp
+	<iostream>
+	<stdexcept>
+	"location.h"
+	"trip.h"
+
+1510817287 c:\users\korisnik\documents\oop\04. locations\location.h
+	<stdexcept>
+	<cmath>
+
+1510222994 c:\users\korisnik\documents\oop\04. locations\trip.h
+	"location.h"
+

@@ -61,7 +61,10 @@ public:
 
         int R = 6372;
 
-        return acos(sin(lat1)*sin(lat2) + cos(lat1)*cos(lat2)*cos(lon2 - lon1)) * R;
+        double a = sin((lat2 - lat1) / 2);
+        double b = sin((lon2 - lon1) / 2);
+
+        return asin(sqrt(a * a + cos(lat1) * cos(lat2) * b * b)) * 2 * R;
     }
 };
 

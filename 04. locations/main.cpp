@@ -14,17 +14,16 @@ int main()
 
         cout << rio.getName() << " @" << rio.getLatitude() << "," << rio.getLongitude() << endl;
 
-        Location tokio("Tokio", 35.6732619, 139.5703043);
+        Location tokyo("Tokyo", 35.6732619, 139.5703043);
 
-        Trip t(rio, tokio);
-        cout << t.distance() << "km" << endl;
+        Trip t(rio, tokyo);
+
+        cout << "Idemo na putovanje:" << endl << t << endl << "Bice super zanimljivo";
     }
     catch(runtime_error error)
     {
         cout << error.what() << endl;
     }
-
-
 
     return 0;
 }
