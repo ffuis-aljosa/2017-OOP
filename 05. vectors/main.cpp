@@ -4,21 +4,35 @@
 
 using namespace std;
 
-void test()
+int main()
 {
     double array[] = { 4.6, 6.12, 9., 8.76 };
     Vector a(array, 4);
 
-    cout << a;
-}
+    cout << a[2] << endl;
 
-int main()
-{
-    cout << 1 << endl;
+    a.setValueAt(2, 7.8);
 
-    test();
+    cout << a << endl << endl;
 
-    cout << 2 << endl;
+    double bArray[] = { 6., 1.9, 5.2 };
+    Vector b(bArray, 3);
+
+    cout << a << " +" << endl
+         << b << endl
+         << a + b << endl << endl;
+
+    cout << a << " -" << endl
+         << b << endl
+         << a - b << endl << endl;
+
+    cout << a << " *" << endl
+         << b << endl
+         << a * b << endl << endl;
+
+    Vector c = a = b;
+
+    cout << a << endl << b << endl << c;
 
     return 0;
 }
