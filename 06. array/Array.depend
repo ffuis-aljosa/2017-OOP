@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1512634974 source:c:\users\korisnik\documents\oop\array\main.cpp
+	<iostream>
+	"IntArray.h"
+
+1512635180 c:\users\korisnik\documents\oop\array\intarray.h
+	<stdexcept>
+
