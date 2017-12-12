@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1513074725 source:c:\users\korisnik\documents\oop\08. employees\main.cpp
+	<iostream>
+	"Employee.h"
+	"MonthlyEmployee.h"
+	"HourlyEmployee.h"
+	"ContractEmployee.h"
+
+1513074764 c:\users\korisnik\documents\oop\08. employees\employee.h
+	<stdexcept>
+
+1513074628 c:\users\korisnik\documents\oop\08. employees\monthlyemployee.h
+	<stdexcept>
+	"Employee.h"
+
+1513074686 c:\users\korisnik\documents\oop\08. employees\hourlyemployee.h
+	"stdexcept"
+	"Employee.h"
+
+1513074725 c:\users\korisnik\documents\oop\08. employees\contractemployee.h
+	<stdexcept>
+	"Employee.h"
+
