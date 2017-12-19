@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1513677763 source:c:\users\korisnik\documents\oop\09. geometric objects\main.cpp
+	<iostream>
+	"Circle.h"
+	"Triangle.h"
+	"Rectangle.h"
+
+1513676156 c:\users\korisnik\documents\oop\09. geometric objects\circle.h
+	"GeometricObject.h"
+	"Point.h"
+	<stdexcept>
+
+1513675612 c:\users\korisnik\documents\oop\09. geometric objects\geometricobject.h
+	<stdexcept>
+
+1513675266 c:\users\korisnik\documents\oop\09. geometric objects\point.h
+	<cmath>
+
+1513677074 c:\users\korisnik\documents\oop\09. geometric objects\triangle.h
+	"GeometricObject.h"
+	"Point.h"
+
+1513679368 c:\users\korisnik\documents\oop\09. geometric objects\rectangle.h
+	"GeometricObject.h"
+	"Point.h"
+	<stdexcept>
+

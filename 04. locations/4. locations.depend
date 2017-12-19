@@ -8,7 +8,7 @@
 	<stdexcept>
 	<cmath>
 
-1510223026 source:c:\users\korisnik\documents\oop\04. locations\main.cpp
+1510820123 source:c:\users\korisnik\documents\oop\04. locations\main.cpp
 	<iostream>
 	<stdexcept>
 	"location.h"
@@ -18,6 +18,6 @@
 	<stdexcept>
 	<cmath>
 
-1510222994 c:\users\korisnik\documents\oop\04. locations\trip.h
+1510820123 c:\users\korisnik\documents\oop\04. locations\trip.h
 	"location.h"
 

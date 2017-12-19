@@ -21,6 +21,7 @@ int main()
     Employee* emp = new HourlyEmployee("Goran", "milosevic", "Kasindo bb",
                                        "066543891", 40, 23);
 
+
     cout << emp->paycheck() << endl;
 
     cout << m.paycheck() << endl;
