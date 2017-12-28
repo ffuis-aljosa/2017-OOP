@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1514456832 source:c:\users\korisnik\documents\oop\10. reminders\main.cpp
+	<iostream>
+	<stdexcept>
+	"DateTime.h"
+	"Reminder.h"
+	"ReminderList.h"
+
+1514455276 c:\users\korisnik\documents\oop\10. reminders\datetime.h
+	<stdexcept>
+
+1514455276 c:\users\korisnik\documents\oop\10. reminders\reminder.h
+	"DateTime.h"
+
+1514456844 c:\users\korisnik\documents\oop\10. reminders\reminderlist.h
+	<vector>
+	<stdexcept>
+	"Reminder.h"
+
